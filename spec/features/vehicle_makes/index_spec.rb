@@ -20,18 +20,15 @@ RSpec.describe "vehicle makes index page" do
     describe 'user story 1' do
         it "I see the name of each parent record in the system" do
             visit "/vehicle_makes"
-            expect(page).to have_content("TESLA")
-            expect(page).to have_content("Hyundai")
-            expect(page).to have_content("Nissan")
-            expect(page).to have_content("Audi")
+            # expect(page).to have_content("TESLA")
+            # expect(page).to have_content("Hyundai")
+            # expect(page).to have_content("Nissan")
+            # expect(page).to have_content("Audi")
 
-
-
-
-            # expect(page).to have_content(@tesla.name)
-            # expect(page).to have_content(@hyundai.name)
-            # expect(page).to have_content(@nissan.name)
-            # expect(page).to have_content(@audi.name)
+            expect(page).to have_content(@tesla.name)
+            expect(page).to have_content(@hyundai.name)
+            expect(page).to have_content(@nissan.name)
+            expect(page).to have_content(@audi.name)
         end
     end
 end

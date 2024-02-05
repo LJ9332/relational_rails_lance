@@ -1,11 +1,10 @@
 <h1>Vehicle Makes</h1>
 
-<% <a href="/vehicle_makes">Task Index</a> %>
-
-<h2> <%= vehicleMake.name %></h2>
-<p><% @vehicle_makes.each do |vehicleMake| %></p>
-    <p><%= vehicleMake.name %></p>
-<p><% end %></p>
+<% @vehicle_makes.each do |vehicleMake| %>
+    <h3> <%= vehicleMake.name %> </h3>
+    <p>Electric Vehicle:<%= vehicleMake.ev %></p>
+    <p>Year Established:<%= vehicleMake.year_established %></p>
+<% end %>
 
 
 

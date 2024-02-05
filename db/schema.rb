@@ -14,7 +14,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_02_01_204924) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "models", force: :cascade do |t|
+  create_table "model_types", force: :cascade do |t|
     t.string "name"
     t.integer "year_made"
     t.boolean "naturally_asprirated"
@@ -24,7 +24,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_02_01_204924) do
     t.bigint "vehicle_make_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["vehicle_make_id"], name: "index_models_on_vehicle_make_id"
+    t.index ["vehicle_make_id"], name: "index_model_types_on_vehicle_make_id"
   end
 
   create_table "vehicle_makes", force: :cascade do |t|
@@ -35,5 +35,5 @@ ActiveRecord::Schema[7.1].define(version: 2024_02_01_204924) do
     t.datetime "updated_at", null: false
   end
 
-  add_foreign_key "models", "vehicle_makes"
+  add_foreign_key "model_types", "vehicle_makes"
 end

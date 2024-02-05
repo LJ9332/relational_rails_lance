@@ -1,6 +1,6 @@
-class CreateModels < ActiveRecord::Migration[7.1]
+class CreateModelTypes < ActiveRecord::Migration[7.1]
   def change
-    create_table :models do |t|
+    create_table :model_types do |t|
       t.string :name
       t.integer :year_made
       t.boolean :naturally_asprirated
