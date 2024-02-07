@@ -242,12 +242,112 @@
           1,
           1,
           1,
+          1,
           null
         ]
       },
       "/Users/lj/Projects/Relational_Rails/relational_rails/app/helpers/application_helper.rb": {
         "lines": [
           1,
+          null
+        ]
+      },
+      "/Users/lj/Projects/Relational_Rails/relational_rails/spec/features/model_types/show_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/lj/Projects/Relational_Rails/relational_rails/spec/features/vehicle_makes/index_spec.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/lj/Projects/Relational_Rails/relational_rails/spec/features/vehicle_makes/model_types/index_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
           null
         ]
       },
@@ -290,7 +390,9 @@
           1,
           null,
           1,
+          1,
           2,
+          null,
           null
         ]
       },
@@ -324,6 +426,25 @@
           null
         ]
       },
+      "/Users/lj/Projects/Relational_Rails/relational_rails/app/controllers/model_types_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/lj/Projects/Relational_Rails/relational_rails/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
       "/Users/lj/Projects/Relational_Rails/relational_rails/app/controllers/vehicle_makes_controller.rb": {
         "lines": [
           1,
@@ -339,13 +460,17 @@
           null
         ]
       },
-      "/Users/lj/Projects/Relational_Rails/relational_rails/app/controllers/application_controller.rb": {
+      "/Users/lj/Projects/Relational_Rails/relational_rails/app/controllers/make_models_controller.rb": {
         "lines": [
           1,
+          1,
+          1,
+          1,
+          null,
           null
         ]
       }
     },
-    "timestamp": 1707187802
+    "timestamp": 1707265278
   }
 }

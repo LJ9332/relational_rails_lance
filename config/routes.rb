@@ -12,4 +12,5 @@ Rails.application.routes.draw do
   get "/vehicle_makes/:id", to: "vehicle_makes#show"
   get "/model_types", to: "model_types#index"
   get "/model_types/:id", to: "model_types#show"
+  get "vehicle_makes/:vehicle_make_id/model_types", to: "make_models#index"
 end

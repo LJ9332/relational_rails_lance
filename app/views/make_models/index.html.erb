@@ -1,11 +1,8 @@
-<h1> Models </h1>
-
 <% @model_types.each do |modelType| %>
-    <h3><%= modelType.name %></h3>
+    <h1><%= @vehicle_make.name %>: <%= modelType.name %></h1>
     <p>Year Made: <%= modelType.year_made %></p>
     <p>Naturally Asprirated: <%= modelType.naturally_asprirated %></p>
     <p>Forced Induction: <%= modelType.forced_induction %></p>
     <p>Horsepower: <%= modelType.horsepower %></p>
     <p>Mileage: <%= modelType.mileage %></p>
-
 <% end %>

@@ -9,7 +9,7 @@ RSpec.describe "vehicle makes show page" do
             @audi = VehicleMake.create!(name: "Audi", ev: false, year_established: 1910)
         end
 
-        it "renders a show page" do
+        it "renders a parent show page" do
             vehicle_make = VehicleMake.create!(name: "TESLA", ev: true, year_established: 2003)
             visit "/vehicle_makes/#{vehicle_make.id}"
 

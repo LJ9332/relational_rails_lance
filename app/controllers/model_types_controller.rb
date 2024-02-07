@@ -1,9 +1,9 @@
 class ModelTypesController < ApplicationController
     def index
-        @models = ModelType.all
+        @model_types = ModelType.all
     end
 
     def show
-        @model = ModelType.find(params[:id])
+        @model_types = ModelType.find(params[:id])
     end
 end
